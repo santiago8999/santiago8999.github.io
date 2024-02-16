@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main   {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenido  {
+    width: 80%;
+    max-width: 1000px;
+    min-height: 500px;
+    background-color: #f9f2e9;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.izquierda  {
+    width: 100%; 
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.izquierda  img{
+    width: 100%;
+    
+}
+
+.derecha    {
+    width: 100%;
+    min-height: 500px; 
+    background-color: #291e62;
+    border-radius: 0 0 20px 20px;
+    padding: 50px;
+
+}
+
+.formulario span{
+    color: #CBA7E5;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    border-radius: 12px;
+    padding: 8px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    background-color: #f9e6fa;
+}
+
+.formulario textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.submit {
+    background-color: #7166f1 !important;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+::-webkit-input-placeholder {
+    color: #a293f4; 
+}  
+
+@media screen and (min-width: 1000px) {
+    .izquierda{
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .derecha{   
+        width: 60%;
+        border-radius: 0 20px 20px 0; 
+    }
+}
+
+/*Los diseños de paginas web responsive siempre se hacen pensando en el 
+formato de telefono, y, dentro de los @media siempre van los formatos
+para pc y otros dispositivos (de resoluciones mas grandes)*/
+
+/*Podemos elegir el tipo de fuente dentro de fuentes usando
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" 
+rel="stylesheet">*/
+
+/*Los formatos de BORDER-RADIUS siempre van en sentido horario*/
