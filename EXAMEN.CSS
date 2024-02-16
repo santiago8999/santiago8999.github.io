@@ -1,0 +1,94 @@
+*   {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: green;
+    justify-content: center;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.div1    {
+    display: flex;
+    width: 30%; 
+}
+
+.div1    img{
+    width: 80%;
+}
+
+.div2   {
+    display: flex;
+    width: 70%;
+    justify-content: space-between; 
+}
+
+.nav    ul{
+    display: flex;
+    list-style: none;   
+}
+
+.nav    li{
+    margin-right: 250px;
+    font-size: 50px;
+    color: white;
+}
+
+.parrafo    {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article{
+    display: inline-block;
+    max-height: 100%;
+    width: 1494px;
+    background-color: whitesmoke;
+}
+
+.article    img{
+    max-height: 209px;
+    width: 250%;
+}
+
+.article    p   {
+    text-align: justify;
+}
+
+.section {
+    display: flex;
+    background-color: greenyellow;
+    margin-bottom: 10px;
+}
+
+.aside  {
+    display: inline-block;
+    background-color: #e2b79b;
+    max-height: 100%;
+    width: 375px;
+    margin-left: 10px;
+    
+}
+
+.footer {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer h1  {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
